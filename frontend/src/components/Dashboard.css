@@ -1,0 +1,112 @@
+/* =========================
+   SEARCH
+========================= */
+
+.search-bar{
+  margin:18px 0;
+}
+
+.search-bar input{
+  width:100%;
+  padding:12px 14px;
+  border-radius:8px;
+  border:1px solid #d1d5db;
+  font-size:14px;
+}
+
+/* =========================
+   DARK THEME (Default & Only)
+========================= */
+
+.dashboard{
+  min-height:100vh;
+  background:#020817;
+  color:#f8fafc;
+  padding:24px;
+}
+
+.section,
+.data-card,
+.kpi-card,
+.summary-card,
+.decision-card,
+.product-card,
+.distribution-card{
+  background:#071224;
+  border:1px solid #22324a;
+  color:#fff;
+}
+
+.section *,
+.data-card *,
+.kpi-card *,
+.summary-card *,
+.decision-card *,
+.product-card *,
+.distribution-card *{
+  color:#fff;
+}
+
+/* TEXT */
+
+.dashboard h1,
+.dashboard h2,
+.dashboard h3,
+.dashboard strong{
+  color:#fff;
+}
+
+.dashboard p,
+.dashboard span,
+.dashboard label{
+  color:#cbd5e1;
+}
+
+/* ===================================================
+   BLACK CARDS + WHITE TEXT
+=================================================== */
+
+/* Product Root Cause */
+.product-card{
+  background:#071224 !important;
+  border:1px solid #22324a !important;
+  color:#fff !important;
+}
+
+/* Distribution Intelligence */
+.distribution-card{
+  background:#071224 !important;
+  border:1px solid #22324a !important;
+  border-radius:16px;
+  color:#fff !important;
+}
+
+/* Force all text inside cards to white */
+.kpi-card *,
+.summary-card *,
+.data-card *,
+.product-card *,
+.distribution-card *{
+  color:#ffffff !important;
+}
+
+/* Loss values stay red */
+.product-card .loss,
+.data-card .loss{
+  color:#ff5a5a !important;
+}
+
+.export-btn{
+  background:#2563eb;
+  color:#fff;
+  border:none;
+  padding:10px 16px;
+  border-radius:10px;
+  font-weight:600;
+  cursor:pointer;
+  transition:.2s;
+}
+
+.export-btn:hover{
+  background:#1d4ed8;
+}
